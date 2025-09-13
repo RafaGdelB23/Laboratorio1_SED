@@ -1,0 +1,28 @@
+¿Cuál es el punto más débil de PGP?
+ - La gestión y verificación de claves públicas, ya que la autenticidad de las claves públicas se verifica manualmente por los usuarios, mediante firmas digitales por ejemplo.
+
+¿Cuándo es conveniente utilizar solamente cifrado simétrico?
+- En entornos controlados y seguros, donde ya haya seguridad previa que nos permita compartir la clave de forma segura.
+
+¿En qué consiste el ciclo de vida del desarrollo de software seguro (etapa por etapa)?
+
+Requisitos:
+Se define el problema, los requisitos de seguridad y cuándo una tarea se considera finalizada. Es crucial priorizar y contar con la participación del equipo de seguridad para evaluar el impacto de cada cambio.
+
+Planificación:
+Se decide qué se va a construir. El equipo de seguridad debe participar para asegurar que la solución propuesta sea segura y útil para el cliente.
+
+Diseño:
+Se diseña la solución técnica. Es vital la revisión del equipo de seguridad para detectar posibles vulnerabilidades antes de avanzar.
+
+Implementación:
+Se convierte el diseño en código. Se aplican prácticas como análisis estático para detectar errores en tiempo real. La seguridad es responsabilidad de todo el equipo.
+
+Pruebas e Implementación:
+Se realizan pruebas exhaustivas (automatizadas y manuales) antes de publicar. Se corrigen vulnerabilidades y se previenen regresiones futuras.
+
+Mantenimiento:
+El código en producción debe mantenerse, ya que pueden surgir nuevos errores y vulnerabilidades. Es una fase clave para detectar fallos y aplicar mejoras.
+
+Ciclo Continuo:
+El SDLC seguro es un proceso cíclico. Los hallazgos de pruebas y mantenimiento reinician el ciclo, promoviendo una mejora continua.
